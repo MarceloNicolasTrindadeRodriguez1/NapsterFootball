@@ -1,4 +1,5 @@
-// Fetching Data from API
+//////////////////////////////////
+//Fetching Data from API
 async function fetchData() {
     const url = 'https://api-football-v1.p.rapidapi.com/v3/standings?season=2020&league=39';
     const options = {
@@ -25,7 +26,7 @@ async function fetchData() {
   }
   
 fetchData();  // Call the async function to initiate the data fetching
-//////////////////
+///////////////////////////////
 
-var matchStandings = document.createElement('div');
+
 
